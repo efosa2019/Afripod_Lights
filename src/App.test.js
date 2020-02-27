@@ -1,9 +1,12 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders component', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const componentTitle = getByText(
+    /This is landing page with Podcast and Episode/i
+  );
+  expect(componentTitle).toBeInTheDocument();
 });
