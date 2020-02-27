@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Afripods light
+Problem to solve
+You should create a simple web application that shows metadata for episodes and podcasts. The data that should be used is located at (assets\data). The app should cointain the following:
 
-## Available Scripts
+Two lists, one with podcasts and one with episodes.
+A landing page for a podcast
+A landing page for an episode
+The landing pages should be shown when the user clicks on a list item.
 
-In the project directory, you can run:
+Submission
+Zip the repository containing your solution and submit it via email to the recruiter that contacted you.
 
-### `npm start`
+Metadata
+List items
+A podcast item needs to have:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Title
+A part of the desciption
+The number of episodes
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+An episode item needs to have:
 
-### `npm test`
+Title
+A part of the desciption
+The length of the episode
+The date when the episode was created
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Podcast landing page
+It needs to have:
 
-### `npm run build`
+Title
+The full description
+The number of episodes
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Episode landing page
+It needs to have:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Title
+The name of the podcast
+The full description
+The length of the episode
+The date when the episode was created
+Design
+You are free to design the app in the way you want.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Data location
+The data is located in: assets\data It cointains two lists. One with podcasts (6 items) and one with episodes (4 items).
 
-### `npm run eject`
+Remark - Episode duration is in seconds.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Requirements
+If nothing else is specified you're free to solve the problem in Vue, React or Angular
+It needs to look great in both phones and desktop
+The lists must support a lot of items.
+Do not make the task harder than it is. It should be solved in a couple of hours.
+Document how to run your application and anything else that you feel is important.
+Optional
+If you'd like you can set up a backend (e.g. node or java) where you are storing and requesting the data.
+Write tests
