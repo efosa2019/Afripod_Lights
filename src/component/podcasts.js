@@ -37,7 +37,6 @@ class Podcasts extends Component {
 						);
 					})
 				) : (
-					// If there is a delay in data, let's let the user know it's loading
 					<h3>Loading...</h3>
 				)}
 			</div>
