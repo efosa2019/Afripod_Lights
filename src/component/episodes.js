@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+
+
 class Episodes extends Component {
 	constructor() {
 		super();
@@ -24,16 +26,16 @@ class Episodes extends Component {
 	render() {
 		const { loading, episodes } = this.state;
 		return (
-			<div>
+			<div >
 				{!loading ? (
 					episodes.map((episode) => {
 						const { title, description, duration, created } = episode;
 						return (
-							<div key={title}>
-								<p>{title}</p>
+							<div key={title} className = "flex-container">
+								<h1>{title}</h1>
+								<h4>{duration}</h4>
+                <h5>{created}</h5>
 								<p>{description}</p>
-								<p>{duration}</p>
-								<p>{created}</p>
 							</div>
 						);
 					})

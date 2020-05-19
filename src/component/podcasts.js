@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Podcasts extends Component {
 	constructor() {
 		super();
@@ -29,16 +30,22 @@ class Podcasts extends Component {
 					podcasts.map((podcast) => {
 						const { title, numberOfEpisodes, description } = podcast;
 						return (
-							<div key={title}>
-								<p>{title}</p>
-								<p> {numberOfEpisodes}</p>
+							
+							<div key={title} className ="flex-container">
+								<h1>{title}</h1>
+								<h4> {numberOfEpisodes}</h4>
 								<p>{description}</p>
 							</div>
+							
 						);
+						
 					})
+					
 				) : (
 					<h3>Loading...</h3>
+					
 				)}
+				
 			</div>
 		);
 	}

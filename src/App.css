@@ -1,14 +1,10 @@
 .App {
-  text-align: center;
-  background-color: #2831344f;
   min-height: 100vh;
+  background: rgba(173, 216, 230, 0.425);
   display: flex;
-  flex-direction: column;
-  margin-top: auto;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
 .App-link {
@@ -16,6 +12,20 @@
 }
 
 .Header {
-  color: #61fb9c94;
+  color: purple;
   height: '30px';
+}
+
+.flex-container{
+  height: 600px;
+  width: 600px;
+  background: white;
+  border-radius: 20px;
+  border: 5px solid black;
+  font-family: cursive;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
