@@ -6,16 +6,6 @@
   align-items: center;
   
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-.Header {
-  color: purple;
-  height: '30px';
-}
-
 .flex-container{
   height: 600px;
   width: 600px;
@@ -29,3 +19,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.Header {
+  color: purple;
+  height: '30px';
+}
+
