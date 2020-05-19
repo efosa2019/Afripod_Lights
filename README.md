@@ -1,4 +1,8 @@
-Afripods light Problem to solve You should create a simple web application that shows metadata for episodes and podcasts. The data that should be used is located at (assets\data). The app should cointain the following:
+Afripods light
+
+Definition: Afripods is an innovative, functional, and user-friendly platform for podcasters, listeners, and advertisers.
+
+Problem to solve: To create a simple web application that shows metadata for episodes and podcasts. The data that should be used is located at (assets\data). The app should cointain the following:
 
 Two lists, one with podcasts and one with episodes. A landing page for a podcast A landing page for an episode The landing pages should be shown when the user clicks on a list item.
 
