@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-
 class Podcasts extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			loading: false,
 			podcasts: []

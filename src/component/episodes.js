@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 
-
-
 class Episodes extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			loading: false,
 			episodes: []
