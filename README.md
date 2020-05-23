@@ -25,3 +25,4 @@ Title The name of the podcast The full description The length of the episode The
 Data location The data is located in: assets\data It cointains two lists. One with podcasts (6 items) and one with episodes (4 items).
 
 Note: Assets data can be find in the Resources folder on this project
+IMPORTANT: Run "npm install" to before "npm start"
